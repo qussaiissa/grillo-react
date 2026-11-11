@@ -1,4 +1,4 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Photo from './Photo.jsx';
+import Photo from './Photo.js';
 export default function Footer(){return <footer className="site-footer"><div className="footer-inner"><div className="footer-brand"><Link to="/" className="brand"><Photo name="logo.jpg" className="logo"/><span>GRILLO</span></Link><p>Authentic Taste. Fresh Ingredients.<br/>Unforgettable Moments.</p></div><div className="footer-section"><h3>Quick Links</h3><Link to="/">Home</Link><Link to="/about">About Us</Link><Link to="/services">Services</Link><Link to="/menu">Our Menu</Link><Link to="/contact">Contact</Link></div><div className="footer-section"><h3>Get in Touch</h3><a href="tel:+96181544786">+961 81 544 786</a><span dir="auto">صيدا القديمة – مدخل السوق – شارع حمام جديد</span><a href="https://www.instagram.com/grillo.lb/" target="_blank" rel="noreferrer">Instagram @grillo.lb</a></div></div><div className="footer-bottom">© {new Date().getFullYear()} GRILLO Restaurant. All rights reserved.</div></footer>}

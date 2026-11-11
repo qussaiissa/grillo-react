@@ -2,14 +2,14 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar.js";
+import Footer from "./components/Footer.js";
 
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Services from "./pages/Services";
-import Menu from "./pages/Menu";
-import Contact from "./pages/Contact";
+import Home from "./pages/Home.js";
+import About from "./pages/About.js";
+import Services from "./pages/Services.js";
+import Menu from "./pages/Menu.js";
+import Contact from "./pages/Contact.js";
 
 export default function App() {
   return (
