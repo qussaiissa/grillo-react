@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 
-export default function Contact() {
+function Contact() {
   const [status, setStatus] = useState("");
 
   function submit(e) {
@@ -87,3 +87,5 @@ ${fd.get("message")}`;
     </div>
   );
 }
+
+export default Contact ;

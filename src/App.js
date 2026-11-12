@@ -11,7 +11,7 @@ import Services from "./pages/Services.js";
 import Menu from "./pages/Menu.js";
 import Contact from "./pages/Contact.js";
 
-export default function App() {
+function App() {
   return (
     <>
       <Navbar />
@@ -40,3 +40,5 @@ export default function App() {
     </>
   );
 }
+
+export default App;
